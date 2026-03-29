@@ -34,7 +34,7 @@ This dataset provides:
   Researcher, [German Aerospace Center (DLR)]
   
 * **Dr. Ksenia Bittner**
-  Research Associate (Supervisor) [German Aerospace Center (DLR)] [https://scholar.google.com/citations?user=YYYY](https://scholar.google.com/citations?user=oPr46YIAAAAJ&hl=en&oi=ao)
+  Research Associate (Supervisor) [German Aerospace Center (DLR)]
 
 ---
 
