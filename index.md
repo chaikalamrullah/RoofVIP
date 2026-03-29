@@ -44,6 +44,5 @@ No endorsement by the original licensor is implied.
 ---
 
 ## Citation
-
-If you use this dataset, please cite: 
-   Will be provided upon publication
+[Will be provided upon publication] 
+   
