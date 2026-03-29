@@ -28,7 +28,7 @@ RoofVIP is developed as a **living, versioned dataset**, supporting continuous u
   - Geometry-aware learning  
   - 3D reconstruction  
 
-**Dataset (Zenodo):** https://doi.org/10.5281/zenodo.19315864  
+**Dataset:** https://doi.org/10.5281/zenodo.19315864  
 **Paper (ISPRS Congress 2026):** Link will be provided upon publication  
 
 ---
