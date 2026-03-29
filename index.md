@@ -12,24 +12,19 @@ Accurate roof modeling is fundamental to urban analytics, digital twins, and lar
 
 This dataset provides:
 
-* Tiled aerial image patches (20 cm resolution), each centered on individual buildings
-* Roof annotations following Level of Detail 2 (LoD2) principles
-* Polygon representations in NumPy format (`.npy`)
+* Tiled aerial image patches (20 cm resolution), each centered on individual buildings. This dataset is derived from Very High Resolution (VHR) RGB aerial imagery (Digitales Orthophoto RGB 20 cm, DOP20 RGB) provided by the Bavarian Surveying Administration (Bayerische Vermessungsverwaltung) via Bavarian Open Geodata.
+* Manual roof annotations following Level of Detail 2 (LoD2) principles with polygon representations in NumPy format (`.npy`).
 
 🔗 **Dataset (Zenodo):** https://doi.org/10.5281/zenodo.19315864
+
 📄 **Paper (ISPRS Congress 2026):** Link will be provided upon publication
 
 ---
 
 ## Dataset Characteristics
 
-* Very High Resolution (VHR) RGB orthophotos
-* Diverse urban building typologies
-* Geometry-focused annotations suitable for:
-
-  * segmentation
-  * vectorization
-  * graph-based reconstruction
+* Single building Very High Resolution (VHR) RGB orthophotos
+* Geometry-focused annotations with diverse urban building typologies suitable for: Segmentation, and Vectorization
 
 ---
 
@@ -50,4 +45,5 @@ No endorsement by the original licensor is implied.
 
 ## Citation
 
-If you use this dataset, please cite: ** Link will be provided upon publication
+If you use this dataset, please cite: 
+   Will be provided upon publication
