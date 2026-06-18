@@ -13,6 +13,21 @@ RoofVIP is developed as a **living, versioned dataset**, supporting continuous u
 
 ### Current Release
 
+#### v1.0.1.0 — Munich, Germany (DSM, DTM, and nDSM for RoofVIP v1.0.0.0)
+
+- **Resolution:** 20 cm DSM and 1 m DTM (later resampling to 20 cm)  
+- **Source:** Digital Surface Model  (Digitales Oberflächenmodell 20cm or DOM20) and Digital Terrain Model (Digitales Geländemodell 1m or DGM1)
+- **Provider:** Bavarian Surveying Administration (Bayerische Vermessungsverwaltung) via Bavarian Open Geodata  
+
+**Content:**
+- Matching each building footprint to its corresponding RoofVIP building ID
+- Cropping the source raster data using the associated building footprint
+- Assigning the corresponding RoofVIP ID as the filename for each cropped raster
+- Organizing the resulting files to ensure direct correspondence with the buildings in the RoofVIP Benchmark Dataset
+
+**Dataset:** [https://doi.org/10.5281/zenodo.19315864 ](https://zenodo.org/records/20750638) 
+
+
 #### v1.0.0.0 — Munich, Germany
 
 - **Resolution:** 20 cm (Very High Resolution RGB orthophotos)  
@@ -28,7 +43,7 @@ RoofVIP is developed as a **living, versioned dataset**, supporting continuous u
   - Geometry-aware learning  
   - 3D reconstruction  
 
-**Dataset:** https://doi.org/10.5281/zenodo.19315864  
+**Dataset:** [https://doi.org/10.5281/zenodo.19315864  ](https://zenodo.org/records/19315865)
 **Paper (ISPRS Congress 2026):** Link will be provided upon publication  
 
 ---
@@ -49,9 +64,10 @@ We encourage community contributions to improve dataset quality and coverage.
 ---
 
 ## Contributors
+**v1.0.1.0 — Munich, Germany (DSM, DTM, and nDSM for RoofVIP v1.0.0.0)**
+- Chaikal Amrullah, Dr. Ksenia Bittner [German Aerospace Center (DLR)]
 
 **v1.0.0.0 — Munich, Germany**
-
 - Chaikal Amrullah, Daniel Panangian, Guneet Mutreja, Youssef Abdelhedi, Dr. Ksenia Bittner [German Aerospace Center (DLR)]
 
 ---
