@@ -8,7 +8,7 @@
   - RGB
   - Vector
   gsd: 20 cm RGB
-  provider: Bavarian Surveying Administration
+  provider: Bavarian Surveying Administration (RGB)
   zenodo: https://zenodo.org/records/19315865
   page: /dataset/v1.0.0.0/
   publication_doi: https://doi.org/10.5194/isprs-annals-XI-2-2026-207-2026
@@ -19,13 +19,11 @@
   location: Munich, Germany
   summary: Elevation extension aligned to v1.0.0.0, adding DSM, DTM, and derived nDSM products.
   modalities:
-  - RGB reference
   - DSM
   - DTM
   - nDSM
-  - Vector reference
   gsd: 20 cm DSM; 1 m DTM (resampled for alignment)
-  provider: Bavarian Surveying Administration
+  provider: Bavarian Surveying Administration (DSM and DTM)
   zenodo: https://zenodo.org/records/20750638
   page: /dataset/v1.0.1.0/
 - version: 1.0.2.0
