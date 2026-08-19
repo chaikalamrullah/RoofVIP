@@ -4,8 +4,19 @@
     <h3>{{ include.person.name }}</h3>
     <p class="muted">{{ include.person.affiliation }}</p>
     <p>{{ include.person.contributions | join: ' · ' }}</p>
+
     <div class="tag-row">
       {% for release in include.person.releases %}<span class="tag">v{{ release }}</span>{% endfor %}
     </div>
+
+    {% if include.person.linkedin and include.person.linkedin != "" %}
+      <a class="text-link person-linkedin"
+         href="{{ include.person.linkedin }}"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="{{ include.person.name }} on LinkedIn">
+        LinkedIn ↗
+      </a>
+    {% endif %}
   </div>
 </article>
