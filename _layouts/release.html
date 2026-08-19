@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign release = site.data.releases | where: "version", page.version | first %}
+<section class="page-hero release-hero">
+  <div class="shell narrow">
+    <div class="release-heading-row">
+      <div>
+        <div class="eyebrow">Dataset release</div>
+        <h1>RoofVIP v{{ page.version }}</h1>
+      </div>
+      {% if release %}{% include status-badge.html status=release.status label=release.status_label %}{% endif %}
+    </div>
+    {% if release %}<p class="page-lead">{{ release.summary }}</p>{% endif %}
+  </div>
+</section>
+<section class="page-content">
+  <div class="shell narrow">
+    {% if release %}
+    <div class="release-facts">
+      <div><span>Location</span><strong>{{ release.location }}</strong></div>
+      <div><span>Resolution</span><strong>{{ release.gsd }}</strong></div>
+      <div><span>Provider</span><strong>{{ release.provider }}</strong></div>
+      <div><span>Access</span><strong>{% if release.zenodo %}<a href="{{ release.zenodo }}">Zenodo ↗</a>{% else %}Not yet released{% endif %}</strong></div>
+    </div>
+    {% endif %}
+    <article class="prose release-body">{{ content }}</article>
+    <div class="back-link"><a href="{{ '/dataset/' | relative_url }}">← All dataset releases</a></div>
+  </div>
+</section>

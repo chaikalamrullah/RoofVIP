@@ -1,0 +1,15 @@
+<article class="release-card">
+  <div class="release-card-top">
+    <div>
+      <div class="eyebrow">Dataset release</div>
+      <h3><a href="{{ include.release.page | relative_url }}">v{{ include.release.version }}</a></h3>
+    </div>
+    {% include status-badge.html status=include.release.status label=include.release.status_label %}
+  </div>
+  <p class="release-location">{{ include.release.location }}</p>
+  <p>{{ include.release.summary }}</p>
+  <div class="tag-row">
+    {% for modality in include.release.modalities %}<span class="tag">{{ modality }}</span>{% endfor %}
+  </div>
+  <a class="text-link" href="{{ include.release.page | relative_url }}">Explore release →</a>
+</article>

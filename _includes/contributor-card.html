@@ -1,0 +1,11 @@
+<article class="person-card">
+  <div class="person-monogram" aria-hidden="true">{{ include.person.name | slice: 0 }}</div>
+  <div>
+    <h3>{{ include.person.name }}</h3>
+    <p class="muted">{{ include.person.affiliation }}</p>
+    <p>{{ include.person.contributions | join: ' · ' }}</p>
+    <div class="tag-row">
+      {% for release in include.person.releases %}<span class="tag">v{{ release }}</span>{% endfor %}
+    </div>
+  </div>
+</article>

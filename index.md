@@ -1,87 +1,73 @@
-# RoofVIP
-
-**RoofVIP** (Roof Vector Image Pair) is a high-resolution dataset for building roof modeling, designed to support geometry-aware deep learning and 3D urban reconstruction.
-
-Accurate roof modeling is fundamental to urban analytics, digital twins, and large-scale city reconstruction. However, progress in deep learning–based reconstruction remains constrained by the limited availability of diverse, high-resolution datasets with detailed geometric annotations.  
-RoofVIP addresses this gap by providing very high-resolution RGB orthophotos paired with structured 2D roof vector annotations across diverse urban morphologies.
-
 ---
-
-## Dataset Overview
-
-RoofVIP is developed as a **living, versioned dataset**, supporting continuous updates and community-driven improvements.
-
-### Current Release
-
-#### v1.0.1.0 — Munich, Germany (DSM, DTM, and nDSM for RoofVIP v1.0.0.0)
-
-- **Resolution:** 20 cm DSM and 1 m DTM (later resampling to 20 cm)  
-- **Source:** Digital Surface Model  (Digitales Oberflächenmodell 20cm or DOM20) and Digital Terrain Model (Digitales Geländemodell 1m or DGM1)
-- **Provider:** Bavarian Surveying Administration (Bayerische Vermessungsverwaltung) via Bavarian Open Geodata  
-
-**Content:**
-- Matching each building footprint to its corresponding RoofVIP building ID
-- Cropping the source raster data using the associated building footprint
-- Assigning the corresponding RoofVIP ID as the filename for each cropped raster
-- Organizing the resulting files to ensure direct correspondence with the buildings in the RoofVIP Benchmark Dataset
-
-**Dataset:** [https://doi.org/10.5281/zenodo.19315864 ](https://zenodo.org/records/20750638) 
-
-
-#### v1.0.0.0 — Munich, Germany
-
-- **Resolution:** 20 cm (Very High Resolution RGB orthophotos)  
-- **Source:** Digitales Orthophoto RGB 20 cm (DOP20 RGB)  
-- **Provider:** Bavarian Surveying Administration (Bayerische Vermessungsverwaltung) via Bavarian Open Geodata  
-
-**Content:**
-- Tiled aerial image patches centered on individual buildings  
-- Manual roof annotations following **Level of Detail 2 (LoD2)** principles in polygon annotations stored in NumPy format (`.npy`)
-- Designed for:
-  - Roof segmentation  
-  - Vectorization  
-  - Geometry-aware learning  
-  - 3D reconstruction  
-
-**Dataset:** [https://doi.org/10.5281/zenodo.19315864  ](https://zenodo.org/records/19315865)
-
-**Paper (ISPRS Congress 2026):** Link will be provided upon publication  
-
+layout: default
+title: Home
 ---
+<section class="home-hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Roof Vector Image Pair</div>
+      <h1>Building-roof geometry as a <em>versioned research resource.</em></h1>
+      <p>RoofVIP pairs very-high-resolution remote-sensing observations with structured roof geometry to support segmentation, vectorization, graph reconstruction, and geometry-aware learning.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ '/dataset/' | relative_url }}">Explore dataset</a>
+        <a class="button secondary" href="{{ '/benchmark/' | relative_url }}">View benchmark</a>
+      </div>
+    </div>
+    <div class="modality-stack" aria-label="RoofVIP modalities">
+      <div class="modality-card"><span>01</span><strong>RGB</strong><small>Very-high-resolution imagery</small></div>
+      <div class="modality-card"><span>02</span><strong>DSM</strong><small>Surface elevation</small></div>
+      <div class="modality-card"><span>03</span><strong>DTM</strong><small>Terrain elevation</small></div>
+      <div class="modality-card"><span>04</span><strong>nDSM</strong><small>Normalized height</small></div>
+      <div class="modality-card featured"><span>05</span><strong>Vector</strong><small>Structured roof geometry</small></div>
+    </div>
+  </div>
+</section>
 
+<section class="section latest-release">
+  <div class="shell">
+    <div class="section-heading">
+      <div><div class="eyebrow">Latest released extension</div><h2>RoofVIP v1.0.1.0</h2></div>
+      {% include status-badge.html status="released" label="Released" %}
+    </div>
+    <div class="feature-band">
+      <div class="feature-number">1.0.1.0</div>
+      <div>
+        <p>DSM, DTM, and nDSM products aligned to the original Munich RoofVIP building identifiers.</p>
+        <div class="tag-row"><span class="tag">DSM</span><span class="tag">DTM</span><span class="tag">nDSM</span><span class="tag">Munich</span></div>
+      </div>
+      <div class="feature-actions"><a class="text-link" href="{{ '/dataset/v1.0.1.0/' | relative_url }}">Release notes →</a><a class="text-link" href="https://zenodo.org/records/20750638">Zenodo ↗</a></div>
+    </div>
+  </div>
+</section>
 
-## Community & Collaboration
+<section class="section">
+  <div class="shell">
+    <div class="section-heading"><div><div class="eyebrow">Release history</div><h2>A dataset designed to evolve.</h2></div><a class="text-link" href="{{ '/dataset/' | relative_url }}">All releases →</a></div>
+    <div class="release-grid">
+      {% for release in site.data.releases limit:4 %}{% include release-card.html release=release %}{% endfor %}
+    </div>
+  </div>
+</section>
 
-RoofVIP is not only a dataset but also a **collaborative platform**.
+<section class="section section-dark">
+  <div class="shell split-callout">
+    <div><div class="eyebrow">Benchmark</div><h2>From dataset to comparable reconstruction results.</h2></div>
+    <div><p>The RoofVIP Benchmark will define evaluation tasks, protocols, and a public leaderboard for established and emerging roof-reconstruction methods.</p><a class="button light" href="{{ '/benchmark/' | relative_url }}">Benchmark preview</a></div>
+  </div>
+</section>
 
-Use GitHub Discussions to:
-- Ask questions  
-- Share research insights  
-- Discuss methods and results  
+<section class="section">
+  <div class="shell">
+    <div class="section-heading"><div><div class="eyebrow">Project log</div><h2>News & updates</h2></div></div>
+    {% include news-list.html %}
+  </div>
+</section>
 
-Use Issues to report annotation errors or data inconsistencies.
-We encourage community contributions to improve dataset quality and coverage.
-
----
-
-## Contributors
-**v1.0.1.0 — Munich, Germany (DSM, DTM, and nDSM for RoofVIP v1.0.0.0)**
-- Chaikal Amrullah, Dr. Ksenia Bittner [German Aerospace Center (DLR)]
-
-**v1.0.0.0 — Munich, Germany**
-- Chaikal Amrullah, Daniel Panangian, Guneet Mutreja, Youssef Abdelhedi, Dr. Ksenia Bittner [German Aerospace Center (DLR)]
-
----
-
-## License
-
-This dataset is released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
-RoofVIP v1.0.0 is derived from DOP20 RGB imagery provided by the Bavarian Surveying Administration (Bayerische Vermessungsverwaltung).
-
----
-
-## Citation
-
-Will be provided upon publication
-
----
+<section class="section section-rule">
+  <div class="shell quick-links">
+    <a href="{{ '/docs/data-structure/' | relative_url }}"><span>01</span><strong>Data structure</strong><small>How RoofVIP is organized</small></a>
+    <a href="{{ '/docs/versioning/' | relative_url }}"><span>02</span><strong>Versioning</strong><small>Release states and policy</small></a>
+    <a href="{{ '/team/' | relative_url }}"><span>03</span><strong>Contributors</strong><small>People behind the dataset</small></a>
+    <a href="{{ '/docs/citation/' | relative_url }}"><span>04</span><strong>Citation</strong><small>How to reference RoofVIP</small></a>
+  </div>
+</section>

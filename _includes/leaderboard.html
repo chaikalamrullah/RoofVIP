@@ -1,0 +1,22 @@
+{% assign board = site.data.leaderboard %}
+<div class="leaderboard-meta">
+  <span><strong>Dataset:</strong> {{ board.dataset_version }}</span>
+  <span><strong>Protocol:</strong> {{ board.protocol_version }}</span>
+</div>
+{% if board.entries and board.entries.size > 0 %}
+<div class="table-wrap">
+<table class="data-table">
+  <thead><tr><th>Rank</th><th>Model</th><th>Institution</th><th>Result</th></tr></thead>
+  <tbody>
+    {% for entry in board.entries %}
+    <tr><td>{{ entry.rank }}</td><td>{{ entry.model }}</td><td>{{ entry.institution }}</td><td>{{ entry.result }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<div class="placeholder-panel">
+  <span class="placeholder-index">00</span>
+  <div><strong>Leaderboard coming soon</strong><p>Verified benchmark submissions will appear here once the evaluation protocol and test release are published.</p></div>
+</div>
+{% endif %}

@@ -1,0 +1,16 @@
+<header class="site-header-custom">
+  <div class="shell nav-shell">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="RoofVIP home">
+      <span class="brand-mark" aria-hidden="true">RV</span>
+      <span class="brand-text">RoofVIP</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/dataset/' | relative_url }}" {% if page.url contains '/dataset/' %}class="active"{% endif %}>Dataset</a>
+      <a href="{{ '/benchmark/' | relative_url }}" {% if page.url contains '/benchmark/' %}class="active"{% endif %}>Benchmark</a>
+      <a href="{{ '/team/' | relative_url }}" {% if page.url contains '/team/' %}class="active"{% endif %}>Team</a>
+      <a href="{{ '/docs/' | relative_url }}" {% if page.url contains '/docs/' %}class="active"{% endif %}>Docs</a>
+    </nav>
+    <a class="nav-utility" href="https://github.com/{{ site.repository }}">GitHub ↗</a>
+  </div>
+</header>

@@ -1,0 +1,13 @@
+- date: "2026-08"
+  title: "RoofVIP website restructuring"
+  body: "RoofVIP is being reorganized as a versioned dataset and benchmark platform with dedicated release, documentation, team, and benchmark pages."
+
+- date: "2026"
+  title: "RoofVIP v1.0.1.0 available"
+  body: "The Munich elevation extension adds DSM, DTM, and nDSM products aligned to the original RoofVIP building identifiers."
+  url: "/dataset/v1.0.1.0/"
+
+- date: "2026"
+  title: "RoofVIP v1.0.0.0"
+  body: "The original Munich release provides 20 cm RGB orthophotos and manually created LoD2-oriented roof-vector annotations."
+  url: "/dataset/v1.0.0.0/"
