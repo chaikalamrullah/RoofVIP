@@ -51,7 +51,7 @@
   - Point Cloud
   - Vector
   gsd: 0.2 m scene grid; DTM source at 1 m
-  provider: Bavarian Surveying Administration
+  provider: Bavarian Surveying Administration (RGB, DSM, DTM, and Point Cloud)
   page: /dataset/v1.0.3.0/
   zenodo: https://zenodo.org/records/22015175
   doi: https://doi.org/10.5281/zenodo.22015175
