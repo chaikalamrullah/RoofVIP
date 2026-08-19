@@ -7,7 +7,7 @@ description: A placeholder for the versioned RoofVIP evaluation specification.
 ---
 ## Protocol status
 
-The benchmark protocol is **not yet released**. Metric definitions shown in future drafts should be treated as provisional until a protocol version is assigned.
+The benchmark dataset **RoofVIP v1.0.3.0** is released, but the formal evaluation protocol is **not yet released**. Metric definitions shown in future drafts should be treated as provisional until a protocol version is assigned.
 
 ## Planned specification
 

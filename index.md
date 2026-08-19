@@ -26,16 +26,16 @@ title: Home
 <section class="section latest-release">
   <div class="shell">
     <div class="section-heading">
-      <div><div class="eyebrow">Latest released extension</div><h2>RoofVIP v1.0.1.0</h2></div>
+      <div><div class="eyebrow">Latest release</div><h2>RoofVIP v1.0.3.0</h2></div>
       {% include status-badge.html status="released" label="Released" %}
     </div>
     <div class="feature-band">
-      <div class="feature-number">1.0.1.0</div>
+      <div class="feature-number">1.0.3.0</div>
       <div>
-        <p>DSM, DTM, and nDSM products aligned to the original Munich RoofVIP building identifiers.</p>
-        <div class="tag-row"><span class="tag">DSM</span><span class="tag">DTM</span><span class="tag">nDSM</span><span class="tag">Munich</span></div>
+        <p>10,245 geographically separated 256 × 256 scenes for multimodal roof reconstruction across approximately 18 km² of Munich.</p>
+        <div class="tag-row"><span class="tag">RGB</span><span class="tag">DSM</span><span class="tag">DTM</span><span class="tag">nDSM</span><span class="tag">LiDAR</span><span class="tag">Vector</span></div>
       </div>
-      <div class="feature-actions"><a class="text-link" href="{{ '/dataset/v1.0.1.0/' | relative_url }}">Release notes →</a><a class="text-link" href="https://zenodo.org/records/20750638">Zenodo ↗</a></div>
+      <div class="feature-actions"><a class="text-link" href="{{ '/dataset/v1.0.3.0/' | relative_url }}">Release details →</a><a class="text-link" href="https://zenodo.org/records/22015175">Zenodo ↗</a></div>
     </div>
   </div>
 </section>
@@ -52,7 +52,7 @@ title: Home
 <section class="section section-dark">
   <div class="shell split-callout">
     <div><div class="eyebrow">Benchmark</div><h2>From dataset to comparable reconstruction results.</h2></div>
-    <div><p>The RoofVIP Benchmark will define evaluation tasks, protocols, and a public leaderboard for established and emerging roof-reconstruction methods.</p><a class="button light" href="{{ '/benchmark/' | relative_url }}">Benchmark preview</a></div>
+    <div><p>RoofVIP v1.0.3.0 now provides the fixed-scene benchmark dataset. The formal evaluation protocol and public leaderboard specification remain under development.</p><a class="button light" href="{{ '/benchmark/' | relative_url }}">Benchmark preview</a></div>
   </div>
 </section>
 

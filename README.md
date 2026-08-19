@@ -20,6 +20,8 @@ Website: https://chaikalamrullah.github.io/RoofVIP/
 
 The release overview is driven primarily by `_data/releases.yml`. Change release status, modalities, links, and summaries there; keep detailed release-specific scientific documentation in the corresponding page under `dataset/`.
 
+When a release becomes public, also update the homepage latest-release block, `_data/news.yml`, `docs/citation.md`, `docs/versioning.md`, and any release-specific team attribution. This prevents a published release from remaining marked as provisional elsewhere on the site.
+
 ## Updating news
 
 Add entries to `_data/news.yml`.

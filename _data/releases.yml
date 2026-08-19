@@ -1,54 +1,60 @@
-- version: "1.0.0.0"
-  label: "RoofVIP v1.0.0.0"
-  status: "released"
-  status_label: "Released"
-  location: "Munich, Germany"
-  summary: "Original RoofVIP release with very-high-resolution RGB orthophotos and manually created roof-vector annotations."
+- version: 1.0.0.0
+  label: RoofVIP v1.0.0.0
+  status: released
+  status_label: Released
+  location: Munich, Germany
+  summary: Original RoofVIP release with very-high-resolution RGB orthophotos and manually created roof-vector annotations.
   modalities:
-    - RGB
-    - Vector
-  gsd: "20 cm RGB"
-  provider: "Bavarian Surveying Administration"
-  zenodo: "https://zenodo.org/records/19315865"
-  page: "/dataset/v1.0.0.0/"
-
-- version: "1.0.1.0"
-  label: "RoofVIP v1.0.1.0"
-  status: "released"
-  status_label: "Released"
-  location: "Munich, Germany"
-  summary: "Elevation extension aligned to v1.0.0.0, adding DSM, DTM, and derived nDSM products."
+  - RGB
+  - Vector
+  gsd: 20 cm RGB
+  provider: Bavarian Surveying Administration
+  zenodo: https://zenodo.org/records/19315865
+  page: /dataset/v1.0.0.0/
+  publication_doi: https://doi.org/10.5194/isprs-annals-XI-2-2026-207-2026
+- version: 1.0.1.0
+  label: RoofVIP v1.0.1.0
+  status: released
+  status_label: Released
+  location: Munich, Germany
+  summary: Elevation extension aligned to v1.0.0.0, adding DSM, DTM, and derived nDSM products.
   modalities:
-    - RGB reference
-    - DSM
-    - DTM
-    - nDSM
-    - Vector reference
-  gsd: "20 cm DSM; 1 m DTM (resampled for alignment)"
-  provider: "Bavarian Surveying Administration"
-  zenodo: "https://zenodo.org/records/20750638"
-  page: "/dataset/v1.0.1.0/"
-
-- version: "1.0.2.0"
-  label: "RoofVIP v1.0.2.0"
-  status: "development"
-  status_label: "In development"
-  location: "To be announced"
-  summary: "A future RoofVIP release whose specification is still being finalized."
+  - RGB reference
+  - DSM
+  - DTM
+  - nDSM
+  - Vector reference
+  gsd: 20 cm DSM; 1 m DTM (resampled for alignment)
+  provider: Bavarian Surveying Administration
+  zenodo: https://zenodo.org/records/20750638
+  page: /dataset/v1.0.1.0/
+- version: 1.0.2.0
+  label: RoofVIP v1.0.2.0
+  status: development
+  status_label: In development
+  location: To be announced
+  summary: A future RoofVIP release whose specification is still being finalized.
   modalities:
-    - To be announced
-  gsd: "To be announced"
-  provider: "To be announced"
-  page: "/dataset/v1.0.2.0/"
-
-- version: "1.0.3.0"
-  label: "RoofVIP v1.0.3.0"
-  status: "planned"
-  status_label: "Planned"
-  location: "To be announced"
-  summary: "Reserved for a future RoofVIP release. Details will be published once the release specification is stable."
+  - To be announced
+  gsd: To be announced
+  provider: To be announced
+  page: /dataset/v1.0.2.0/
+- version: 1.0.3.0
+  label: RoofVIP v1.0.3.0
+  status: released
+  status_label: Released
+  location: Munich metropolitan area, Germany (~18 km²)
+  summary: Multimodal fixed-scene RoofVIP release with 256 × 256 px scenes, RGB, DSM, DTM, nDSM, LiDAR point clouds, and LoD 2.0 roof-vector annotations.
   modalities:
-    - To be announced
-  gsd: "To be announced"
-  provider: "To be announced"
-  page: "/dataset/v1.0.3.0/"
+  - RGB
+  - DSM
+  - DTM
+  - nDSM
+  - LiDAR
+  - Vector
+  gsd: 0.2 m scene grid; DTM source at 1 m
+  provider: Bavarian Surveying Administration
+  page: /dataset/v1.0.3.0/
+  zenodo: https://zenodo.org/records/22015175
+  doi: https://doi.org/10.5281/zenodo.22015175
+  release_date: '2026-08-19'

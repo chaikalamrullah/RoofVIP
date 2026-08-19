@@ -7,7 +7,7 @@ permalink: /benchmark/
   <div class="shell narrow">
     <div class="eyebrow">Benchmark</div>
     <h1>Make roof reconstruction <em>comparable.</em></h1>
-    <p class="page-lead">The RoofVIP Benchmark is being designed as a stable evaluation layer above the evolving dataset: explicit tasks, a versioned protocol, and a leaderboard tied to a declared RoofVIP release.</p>
+    <p class="page-lead">The RoofVIP Benchmark is being designed as a stable evaluation layer above the evolving dataset. The current benchmark dataset is **RoofVIP v1.0.3.0**; the formal evaluation protocol and public leaderboard specification remain under development.</p>
   </div>
 </section>
 <section class="page-content">

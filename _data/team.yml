@@ -1,44 +1,43 @@
-- name: "Chaikal Amrullah"
-  group: "core"
-  affiliation: "German Aerospace Center (DLR)"
+- name: Chaikal Amrullah
+  group: core
+  affiliation: German Aerospace Center (DLR)
   contributions:
-    - Dataset conception
-    - Dataset development
-    - Project coordination
+  - Dataset conception
+  - Dataset development
+  - Project coordination
+  - Data management
   releases:
-    - "1.0.0.0"
-    - "1.0.1.0"
-
-- name: "Ksenia Bittner"
-  group: "core"
-  affiliation: "German Aerospace Center (DLR)"
+  - 1.0.0.0
+  - 1.0.1.0
+  - 1.0.3.0
+- name: Ksenia Bittner
+  group: core
+  affiliation: German Aerospace Center (DLR)
   contributions:
-    - Supervision
-    - Dataset development
+  - Supervision
+  - Dataset development
   releases:
-    - "1.0.0.0"
-    - "1.0.1.0"
-
-- name: "Daniel Panangian"
-  group: "contributor"
-  affiliation: "German Aerospace Center (DLR)"
+  - 1.0.0.0
+  - 1.0.1.0
+  - 1.0.3.0
+- name: Daniel Panangian
+  group: contributor
+  affiliation: German Aerospace Center (DLR)
   contributions:
-    - Dataset contribution
+  - Dataset contribution
   releases:
-    - "1.0.0.0"
-
-- name: "Guneet Mutreja"
-  group: "contributor"
-  affiliation: "German Aerospace Center (DLR)"
+  - 1.0.0.0
+- name: Guneet Mutreja
+  group: contributor
+  affiliation: German Aerospace Center (DLR)
   contributions:
-    - Dataset contribution
+  - Dataset contribution
   releases:
-    - "1.0.0.0"
-
-- name: "Youssef Abdelhedi"
-  group: "contributor"
-  affiliation: "German Aerospace Center (DLR)"
+  - 1.0.0.0
+- name: Youssef Abdelhedi
+  group: contributor
+  affiliation: German Aerospace Center (DLR)
   contributions:
-    - Dataset contribution
+  - Dataset contribution
   releases:
-    - "1.0.0.0"
+  - 1.0.0.0
