@@ -37,22 +37,3 @@ When the benchmark protocol is ready, populate `_data/leaderboard.yml` and docum
 ## GitHub Pages
 
 The site uses Jekyll and the GitHub Pages-compatible `minima` theme as a base, with custom layouts and styling. Links use Jekyll's `relative_url` filter so the site works under the `/RoofVIP` project path.
-
-## Updating the brand mark
-
-The header mark is controlled through `_config.yml`:
-
-```yml
-brand_mark: "RV"
-brand_name: "RoofVIP"
-```
-
-Change `brand_mark` to update the letters inside the logo pill, or edit `_includes/header.html` if you want to replace the text mark with a custom SVG/image.
-
-## Updating the color palette
-
-The site color system is centralized near the top of `assets/css/main.scss` under the `:root` variables. Update those CSS custom properties to change the global design language.
-
-## Updating the home-page modality stack
-
-The stacked modality cards on the landing page are defined directly in `index.md` and styled in `assets/css/main.scss`.

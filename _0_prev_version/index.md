@@ -14,12 +14,11 @@ title: Home
       </div>
     </div>
     <div class="modality-stack" aria-label="RoofVIP modalities">
-      <div class="modality-card rgb"><span>01</span><strong>RGB</strong><small>Very-high-resolution imagery</small></div>
-      <div class="modality-card dsm"><span>02</span><strong>DSM</strong><small>Surface elevation</small></div>
-      <div class="modality-card dtm"><span>03</span><strong>DTM</strong><small>Terrain elevation</small></div>
-      <div class="modality-card ndsm"><span>04</span><strong>nDSM</strong><small>Normalized height</small></div>
-      <div class="modality-card pointcloud"><span>05</span><strong>Point Cloud</strong><small>LiDAR scene subsets</small></div>
-      <div class="modality-card vector featured"><span>06</span><strong>Vector</strong><small>Structured roof geometry</small></div>
+      <div class="modality-card"><span>01</span><strong>RGB</strong><small>Very-high-resolution imagery</small></div>
+      <div class="modality-card"><span>02</span><strong>DSM</strong><small>Surface elevation</small></div>
+      <div class="modality-card"><span>03</span><strong>DTM</strong><small>Terrain elevation</small></div>
+      <div class="modality-card"><span>04</span><strong>nDSM</strong><small>Normalized height</small></div>
+      <div class="modality-card featured"><span>05</span><strong>Vector</strong><small>Structured roof geometry</small></div>
     </div>
   </div>
 </section>
@@ -34,7 +33,7 @@ title: Home
       <div class="feature-number">1.0.3.0</div>
       <div>
         <p>10,245 geographically separated 256 × 256 scenes for multimodal roof reconstruction across approximately 18 km² of Munich.</p>
-        <div class="tag-row"><span class="tag">RGB</span><span class="tag">DSM</span><span class="tag">DTM</span><span class="tag">nDSM</span><span class="tag">Point Cloud</span><span class="tag">Vector</span></div>
+        <div class="tag-row"><span class="tag">RGB</span><span class="tag">DSM</span><span class="tag">DTM</span><span class="tag">nDSM</span><span class="tag">LiDAR</span><span class="tag">Vector</span></div>
       </div>
       <div class="feature-actions"><a class="text-link" href="{{ '/dataset/v1.0.3.0/' | relative_url }}">Release details →</a><a class="text-link" href="https://zenodo.org/records/22015175">Zenodo ↗</a></div>
     </div>
