@@ -6,7 +6,10 @@ title: Home
   <div class="shell hero-grid">
     <div class="hero-copy">
       <div class="eyebrow">Roof Vector Image Pair</div>
-      <h1>Building-roof geometry as a <em>versioned research resource.</em></h1>
+      <h1>
+        Building-roof geometry as a
+        <em class="hero-subline">versioned research resource.</em>
+      </h1>
       <p>RoofVIP pairs very-high-resolution remote-sensing observations with structured roof geometry to support segmentation, vectorization, graph reconstruction, and geometry-aware learning.</p>
       <div class="hero-actions">
         <a class="button primary" href="{{ '/dataset/' | relative_url }}">Explore dataset</a>
