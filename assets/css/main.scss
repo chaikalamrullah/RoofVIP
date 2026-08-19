@@ -46,10 +46,9 @@ main { min-height: 70vh; }
 .hero-copy h1 em, .page-hero h1 em { font-family: Georgia, serif; font-weight: 400; }
 .hero-copy > p { max-width: 720px; font-size: 20px; color: var(--ink-soft); margin: 30px 0; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
-.hero-copy h1 .hero-subline {
-  display: block;
-  font-size: 0.72em;
-}
+
+.hero-copy h1 .hero-subline {display: block; font-size: 0.65em; }
+
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 999px; font-weight: 800; font-size: 14px; text-decoration: none; border: 1px solid var(--ink); }
 .button.primary { background: var(--ink); color: white; }
 .button.primary:hover { background: #243445; }
